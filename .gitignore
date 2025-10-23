@@ -1,0 +1,23 @@
+# Python のキャッシュファイルを無視
+__pycache__/
+*.pyc
+
+# ログファイルを無視
+*.log
+
+# 一時ファイルを無視
+*.tmp
+
+# 特定のフォルダを無視
+data/
+backup/
+
+report/img/
+report/report_data/
+
+# 特定のファイルを無視
+config.json
+secret_key.txt
+
+# 特定の拡張子を無視する
+*.ppm
